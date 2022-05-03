@@ -33,6 +33,9 @@ i = 0
 result = 0
 function Sum2(start, end, step) {
     i = start
+if (start > end) {
+    return 0
+}
     if (result < end) {
         i += step
         result += i
