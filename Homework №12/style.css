@@ -1,0 +1,33 @@
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.div2 {
+    border: 1px black solid;
+    width: 80px;
+    height: 80px;
+    user-select: none;
+}
+
+.div3 {
+    border: 1px black solid;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    user-select: none;
+}
+
+#context {
+    font-size: 28px;
+}
