@@ -67,5 +67,6 @@ button.addEventListener("click", function () {
         X.innerHTML = ""
         X.id = ""
         document.querySelector("#p").innerHTML = ""
+        count = 1
     }
 })
