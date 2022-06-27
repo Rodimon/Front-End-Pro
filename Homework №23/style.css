@@ -1,0 +1,46 @@
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cubes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.game {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.cube {
+    position: absolute;
+    visibility: hidden;
+}
+
+.button {
+    align-self: flex-start;
+}
+
+.cell {
+    border: 5px solid black;
+    min-width: 95px;
+    height: 100px;
+}
+
+.fishka {
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    width: 45px;
+    height: 90px;
+}
